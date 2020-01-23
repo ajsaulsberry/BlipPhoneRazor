@@ -1,11 +1,82 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "libphonenumber-csharp/8.11.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PhoneNumbers.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PhoneNumbers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "libphonenumber-csharp/8.11.2": {
+      "sha512": "yQNIcD3bVDD7ohcXVPiQXPqF2RIDjK9IhVmyb7P/xTtAb22A0D5o4VxjRvynNEoUB8kpk8ZixPlYhU5m3zfn5w==",
+      "type": "package",
+      "path": "libphonenumber-csharp/8.11.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/PhoneNumbers.dll",
+        "lib/net35/PhoneNumbers.xml",
+        "lib/net40/PhoneNumbers.dll",
+        "lib/net40/PhoneNumbers.xml",
+        "lib/net46/PhoneNumbers.dll",
+        "lib/net46/PhoneNumbers.xml",
+        "lib/netstandard1.3/PhoneNumbers.dll",
+        "lib/netstandard1.3/PhoneNumbers.xml",
+        "lib/netstandard2.0/PhoneNumbers.dll",
+        "lib/netstandard2.0/PhoneNumbers.xml",
+        "lib/portable-net45+win8+wp8+wpa81/PhoneNumbers.dll",
+        "lib/portable-net45+win8+wp8+wpa81/PhoneNumbers.xml",
+        "libphonenumber-csharp.8.11.2.nupkg.sha512",
+        "libphonenumber-csharp.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.6.0": {
+      "sha512": "+aL946rTSJyo4PqstwsVZ5RBfaxfkIx+nTMfpmaxzorqgifRJwndBZhXPWNWGJpys7cQ1/vCvilYN9ugM05JFA==",
+      "type": "package",
+      "path": "system.collections.immutable/1.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.6.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "libphonenumber-csharp >= 8.11.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ajsau\\.nuget\\packages\\": {},
@@ -50,6 +121,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "libphonenumber-csharp": {
+            "target": "Package",
+            "version": "[8.11.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

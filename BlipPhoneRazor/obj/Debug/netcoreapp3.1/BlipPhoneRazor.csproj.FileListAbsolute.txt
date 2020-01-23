@@ -36,3 +36,4 @@ C:\Projects\ajsaulsberry\BlipPhoneRazor\BlipPhoneRazor\obj\Debug\netcoreapp3.1\B
 C:\Projects\ajsaulsberry\BlipPhoneRazor\BlipPhoneRazor\bin\Debug\netcoreapp3.1\Models\obj\PhoneNumberCheck.csproj.nuget.dgspec.json
 C:\Projects\ajsaulsberry\BlipPhoneRazor\BlipPhoneRazor\bin\Debug\netcoreapp3.1\Models\obj\project.assets.json
 C:\Projects\ajsaulsberry\BlipPhoneRazor\BlipPhoneRazor\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneCheck.cshtml.g.cs
+C:\Projects\ajsaulsberry\BlipPhoneRazor\BlipPhoneRazor\bin\Debug\netcoreapp3.1\PhoneNumbers.dll

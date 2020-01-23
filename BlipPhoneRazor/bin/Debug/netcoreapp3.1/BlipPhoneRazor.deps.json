@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BlipPhoneRazor/1.0.0": {
         "dependencies": {
+          "libphonenumber-csharp": "8.11.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -157,7 +158,7 @@
           "System.Buffers": "4.0.2.0",
           "System.Collections.Concurrent": "4.0.15.0",
           "System.Collections": "4.1.2.0",
-          "System.Collections.Immutable": "1.2.5.0",
+          "System.Collections.Immutable.Reference": "1.2.5.0",
           "System.Collections.NonGeneric": "4.1.2.0",
           "System.Collections.Specialized": "4.1.2.0",
           "System.ComponentModel.Annotations": "4.3.1.0",
@@ -314,6 +315,21 @@
           "BlipPhoneRazor.dll": {}
         }
       },
+      "libphonenumber-csharp/8.11.2": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PhoneNumbers.dll": {
+            "assemblyVersion": "8.11.2.0",
+            "fileVersion": "8.11.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/PhoneNumbers.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.6.0": {},
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -1112,7 +1128,7 @@
         },
         "compileOnly": true
       },
-      "System.Collections.Immutable/1.2.5.0": {
+      "System.Collections.Immutable.Reference/1.2.5.0": {
         "compile": {
           "System.Collections.Immutable.dll": {}
         },
@@ -2014,6 +2030,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "libphonenumber-csharp/8.11.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yQNIcD3bVDD7ohcXVPiQXPqF2RIDjK9IhVmyb7P/xTtAb22A0D5o4VxjRvynNEoUB8kpk8ZixPlYhU5m3zfn5w==",
+      "path": "libphonenumber-csharp/8.11.2",
+      "hashPath": "libphonenumber-csharp.8.11.2.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+aL946rTSJyo4PqstwsVZ5RBfaxfkIx+nTMfpmaxzorqgifRJwndBZhXPWNWGJpys7cQ1/vCvilYN9ugM05JFA==",
+      "path": "system.collections.immutable/1.6.0",
+      "hashPath": "system.collections.immutable.1.6.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
@@ -2679,7 +2709,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "System.Collections.Immutable/1.2.5.0": {
+    "System.Collections.Immutable.Reference/1.2.5.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

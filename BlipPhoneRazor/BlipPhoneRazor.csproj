@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="libphonenumber-csharp" Version="8.11.2" />
+  </ItemGroup>
+
 
 
 </Project>
